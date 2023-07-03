@@ -2,7 +2,7 @@
 Web application that provides a platform for managing animal hotels and hospitals. It offers a user-friendly interface for both animal owners and facility administrators, allowing them to efficiently manage bookings, medical records, and other relevant information.
 
 ## Features
-Animal Management: Easily add and manage animals, including their basic information, medical history, and current status.
+Pet Management: Easily add and manage animals, including their basic information, medical history, and current status.
 Booking Management: Streamline the booking process by allowing users to request reservations for their animals and enabling facility administrators to manage and approve these requests.
 Medical Records: Maintain detailed medical records for each animal, including vaccinations, treatments, and any other relevant information.
 Staff Management: Assign staff members to specific animals or tasks, ensuring smooth operations within the facility.
