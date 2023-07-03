@@ -4,23 +4,17 @@ import './Login.css';
 const Login = () => {
   return (
     <div className="login-container">
-      <h2>Login</h2>
-      <form>
-        <div className="form-group">
-          <label htmlFor="username">Username:</label>
-          <input type="text" id="username" name="username" />
+      <div className="login-box">
+        <h2 className="login-title">Login</h2>
+        <form className="login-form">
+          <input type="text" placeholder="Username or email" />
+          <input type="password" placeholder="Password" />
+          <button type="submit">Submit</button>
+        </form>
+        <div className="login-links">
+          <a href="#">Forgotten password</a>
+          <a href="#">Register</a>
         </div>
-        <div className="form-group">
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" />
-        </div>
-        <div className="form-group">
-          <button type="submit">Login</button>
-        </div>
-      </form>
-      <div className="forgot-register-links">
-        <a href="/forgot-password">Forgotten Password?</a>
-        <a href="/register">Register</a>
       </div>
     </div>
   );
