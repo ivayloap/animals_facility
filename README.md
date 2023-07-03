@@ -1,4 +1,4 @@
-## Animal Facility
+# Animal Facility
 
 Web application that provides a platform for managing animal hotels and hospitals. It offers a user-friendly interface for both animal owners and facility administrators, allowing them to efficiently manage bookings, medical records, and other relevant information.
 
@@ -30,25 +30,36 @@ Install the required dependencies for both the frontend and backend:
 
 bash
 Copy code
-# Frontend
+## Frontend
+``` bash
 cd frontend
 npm install
+```
 
-# Backend
-cd ../backend
+## Backend
+``` bash
+cd backend
 bundle install
+```
 
-# Set up the database:
+## Set up the database
+``` bash
 rails db:create
 rails db:migrate
-Start the development servers:
+```
 
-# Frontend
+## Start the development servers
+### Frontend
+``` bash
 cd frontend
 npm start
+```
 
-# Backend
+### Backend
+``` bash
+cd backend
 rails s
+```
 Access the application by visiting http://localhost:3000 in your web browser.
 
 Contributing
